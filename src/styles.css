@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: "myGaramond";
+    src: url('./assets/fonts/EBGaramond-Regular.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "firesansbold";
+  src: url('./assets/fonts/FireSans/FiraSans-Bold.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "firesansregular";
+  src: url('./assets/fonts/FireSans/FiraSans-Regular.ttf') format("truetype");
+}

@@ -1,0 +1,15 @@
+
+.divLayout {
+  background-color: rgb(229, 225, 229);
+}
+
+.content{
+  margin-left: 373px; /* Ajusta el margen izquierdo para dejar espacio para el menú lateral */
+  background-color: rgb(255, 255, 255);
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 16px;
+  padding: 30px;
+}
+

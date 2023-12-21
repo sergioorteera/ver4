@@ -1,0 +1,16 @@
+.errorDiv {
+  background-color: var(--surface-100);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  top: 0%;
+  left: 0%;
+}
+
+.contentError {
+  align-self: center;
+  display: grid;
+  justify-items: center;
+}

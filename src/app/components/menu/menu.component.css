@@ -1,0 +1,107 @@
+.sidebar {
+  height: 100%;
+  width: 323px;
+  position: fixed;
+  background-color: rgb(0, 0, 102);
+}
+.sidebar-item{
+
+  background-color: rgb(0, 0, 102);
+}
+
+.sidebar-header {
+  align-items: center;
+  color: #ffffff;
+  height: 82px;
+  text-align: center;
+  display: flex;
+  padding: 30px;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+
+.nav-link {
+  color: #fff !important; /* Cambia el color del texto del enlace según tus preferencias */
+}
+
+.tittle-menu{
+  font-family: "myGaramond";
+  font-size: 16px;
+}
+
+.image-menu{
+  height: 56px;
+  width: 36px;
+}
+
+.separador{
+  border: none; /* Eliminar el borde predeterminado */
+  height: 2px; /* Establecer el grosor de la línea */
+  background-color: rgb(157, 3, 17); /* Establecer el color de la línea */
+  border-radius: 5px;
+  width: 270px;
+  text-align: right;
+}
+
+.sidebar-nav {
+  padding: 0;
+  margin-top: 33px;
+}
+
+.li {
+  list-style: none;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a.sidebar-link {
+  padding: .625rem 1.625rem;
+  color: #e9ecef;
+  position: relative;
+  display: block;
+  font-size: 1rem;
+}
+
+.sidebar-link[data-bs-toggle=""]::after {
+  border: solid;
+  border-width: 0 .075rem .075rem 0;
+  content: "";
+  display: inline-block;
+  padding: 2px;
+  position: absolute;
+  right: 1.5rem;
+  top: 1.4rem;
+  transform: rotate(-135deg);
+  transition: all .2s ease-out;
+}
+
+.sidebar-link[data-bs-toggle=""].collapsed::after {
+  transform: rotate(45deg);
+  transition: all .2s ease-out;
+}
+
+.menu-1{
+  font-family: "firesansbold";
+  font-size: 16px;
+}
+
+.menu-2{
+  font-family: "firesansregular";
+  font-size: 14px;
+}
+
+
+/* Estilo para el enlace del menú cuando está activo */
+.sidebar-link.router-link-active {
+  background-color: rgb(251, 248, 255, 20%); /* Cambia el color de fondo según tus preferencias */
+}
+
+/* Estilo para el enlace del menú cuando se hace hover o focus */
+.sidebar-link:hover,
+.sidebar-link:focus {
+  background-color: rgb(251, 248, 255, 20%); /* Cambia el color de fondo según tus preferencias */
+  color: #fff; /* Cambia el color del texto según tus preferencias */
+}

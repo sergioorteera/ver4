@@ -1,0 +1,51 @@
+<div class="sidebar">
+  <!-- Logo o nombre de la aplicación -->
+  <div class="sidebar-header">
+    <img class="image-menu" src="assets/images/logo-menu.png" />
+    <h4 class="tittle-menu mt-3 ms-3">División de Unidad de Salud</h4>
+  </div>
+
+  <div class="separador">
+    <hr class="linea">
+  </div>
+
+  <!-- Menú de navegación con subniveles -->
+  <ul class="sidebar-nav">
+
+    <li class="sidebar-item">
+
+      <a href="#" class="sidebar-link collapsed menu-1" data-bs-toggle="collapse" data-bs-target="#multi" aria-expanded="false"
+        aria-controls="multi">
+        <i class="fa-solid fa-share-nodes"></i>
+        Aseguramiento
+      </a>
+
+      <ul id="multi" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+
+        <li class="sidebar-item">
+          <a href="#" class="sidebar-link collapsed menu-1" data-bs-toggle="collapse" data-bs-target="#multi-two"
+            aria-expanded="false" aria-controls="multi-two">
+            Afiliaciones
+          </a>
+          <ul id="multi-two" class="sidebar-dropdown list-unstyled collapse">
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link menu-2">Solicitud de afiliación</a>
+            </li>
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link menu-2">Gestión de grupo familiar</a>
+            </li>
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link menu-2">Solicitudes por revisar</a>
+            </li>
+            <li class="sidebar-item">
+              <a routerLink="/aseguramiento/prueba" class="sidebar-link menu-2">Solicitud de afiliación</a>
+            </li>
+          </ul>
+        </li>
+
+      </ul>
+
+    </li>
+
+  </ul>
+</div>
