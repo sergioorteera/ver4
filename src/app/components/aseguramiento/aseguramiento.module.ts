@@ -5,7 +5,12 @@ import { AseguramientoRoutingModule } from '../../router/aseguramiento-routing.m
 import { AseguramientoComponent } from './aseguramiento.component';
 import { HeaderComponent } from '../header/header.component';
 import { MenuComponent } from '../menu/menu.component';
-import { PruebaComponent } from './components/prueba/prueba.component';
+import { FormAreaAfiliacionesComponent } from './components/form-area-afiliaciones/form-area-afiliaciones.component';
+import { FormCotizanteComponent } from './components/form-cotizante/form-cotizante.component';
+import { FormEmpleadorComponent } from './components/form-empleador/form-empleador.component';
+import { FormGrupoFamiliarComponent } from './components/form-grupo-familiar/form-grupo-familiar.component';
+import { SolicitudAfiliacionPageComponent } from './components/solicitud-afiliacion-page/solicitud-afiliacion-page.component';
+
 
 
 @NgModule({
@@ -13,7 +18,11 @@ import { PruebaComponent } from './components/prueba/prueba.component';
     AseguramientoComponent,
     HeaderComponent,
     MenuComponent,
-    PruebaComponent,
+    FormAreaAfiliacionesComponent,
+    FormCotizanteComponent,
+    FormEmpleadorComponent,
+    FormGrupoFamiliarComponent,
+    SolicitudAfiliacionPageComponent,
   ],
   imports: [
     CommonModule,

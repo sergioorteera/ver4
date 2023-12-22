@@ -1,13 +1,22 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AseguramientoComponent } from '../components/aseguramiento/aseguramiento.component';
-import { PruebaComponent } from '../components/aseguramiento/components/prueba/prueba.component';
+import { FormAreaAfiliacionesComponent } from '../components/aseguramiento/components/form-area-afiliaciones/form-area-afiliaciones.component';
+import { FormCotizanteComponent } from '../components/aseguramiento/components/form-cotizante/form-cotizante.component';
+import { FormEmpleadorComponent } from '../components/aseguramiento/components/form-empleador/form-empleador.component';
+import { FormGrupoFamiliarComponent } from '../components/aseguramiento/components/form-grupo-familiar/form-grupo-familiar.component';
+import { SolicitudAfiliacionPageComponent } from '../components/aseguramiento/components/solicitud-afiliacion-page/solicitud-afiliacion-page.component';
+
 
 const routes: Routes = [
   {
     path: '', component: AseguramientoComponent,
     children:[
-      { path: 'prueba', component: PruebaComponent }
+      { path: 'form-area-afiliaciones', component: FormAreaAfiliacionesComponent },
+      { path: 'form-cotizante', component: FormCotizanteComponent },
+      { path: 'form-empleador', component: FormEmpleadorComponent },
+      { path: 'form-grupo-familiar', component: FormGrupoFamiliarComponent },
+      { path: 'solicitud-afiliacion', component: SolicitudAfiliacionPageComponent }
     ]
   }
 ];
