@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { FormBuilder, FormControl, FormGroup } from '@angular/forms';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-form-area-afiliaciones',
@@ -11,11 +11,11 @@ export class FormAreaAfiliacionesComponent {
 
   public formAreaAfiliaciones: FormGroup = this.fb.group(
     {
-      fechaSgsss: [''],
-      tipoAfiliacion: [''],
-      numeroRadicacion: [0],
-      fechaRadicacion: [''],
-      observaciones: ['']
+      fechaSgsss: ['', Validators.required],
+      tipoAfiliacion: ['', Validators.required],
+      numeroRadicacion: [0, Validators.required],
+      fechaRadicacion: ['', Validators.required],
+      observaciones: ['', Validators.required]
     }
   )
 

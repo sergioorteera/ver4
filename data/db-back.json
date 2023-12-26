@@ -1,0 +1,11 @@
+{
+  "prueba": [
+    {
+      "fechaSgsss": 1,
+      "tipoAfiliacion": "uno",
+      "numeroRadicacion": "dos",
+      "fechaRadicacion": "tres",
+      "observaciones": "cuatro"
+    }
+  ]
+}
