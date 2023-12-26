@@ -1,7 +1,7 @@
 .header {
   padding: 15px;
   background-color: #ffffff; /* Cambia el color de fondo según tus preferencias */
-  color: #fff; /* Cambia el color del texto según tus preferencias */
+  color: #000000; /* Cambia el color del texto según tus preferencias */
   width: calc(100% - 323px); /* Ajusta el ancho según el ancho del menú lateral */
   margin-left: 323px; /* Ajusta el margen izquierdo según el ancho del menú lateral */
   display: flex;

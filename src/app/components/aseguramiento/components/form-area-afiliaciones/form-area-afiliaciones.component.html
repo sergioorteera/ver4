@@ -15,31 +15,49 @@
   </ul>
 </div>
 
-<div>
-  <div class="row">
-    <div class="row m-5">
+<form [formGroup]="formAreaAfiliaciones" (ngSubmit)="onSave()" autocomplete="off">
+  <div class="m-5">
+
+    <div class="row m-3">
       <h2>1. <span class="tituloForm">Información del área de afiliaciones de la unidad de salud</span></h2>
     </div>
-  </div>
-  <div class="row m-5">
-    <div class="col">
-      <div class="input-group mb-3">
-        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+
+    <div class="row m-3">
+
+      <div class="col-3">
+        <input type="text" class="form-control" placeholder="Fecha de ingreso al SGSSS" formControlName="fechaSgsss">
+      </div>
+
+      <div class="col-3">
+        <input type="text" class="form-control" placeholder="Tipo de afiliación" formControlName="tipoAfiliacion">
+      </div>
+
+      <div class="col-3">
+        <input type="number" class="form-control" placeholder="Número de radicación" formControlName="numeroRadicacion">
+      </div>
+
+      <div class="col-3">
+        <input type="text" class="form-control" placeholder="Fecha de radicación" formControlName="fechaRadicacion">
       </div>
 
     </div>
-    <div class="col">
+
+    <div class="row m-3">
+
+      <div class="col-md-6">
+        <input type="text" class="form-control" placeholder="Observaciones" formControlName="observaciones">
+      </div>
 
     </div>
-    <div class="col">
 
+    <div class="row m-3">
+      <div class="grupoBotones">
+        <button type="button" class="btn btn-primary custom-btn mx-2">Atrás</button>
+        <button type="button" class="btn btn-primary custom-btn mx-2">Cancelar</button>
+        <button type="submit" class="btn btn-primary custom-btn mx-2">Siguiente</button>
+      </div>
     </div>
-    <div class="col">
 
-    </div>
   </div>
-  <div class="row">
-
-  </div>
-</div>
+</form>
 

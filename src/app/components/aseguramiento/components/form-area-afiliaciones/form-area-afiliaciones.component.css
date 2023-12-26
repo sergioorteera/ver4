@@ -4,3 +4,12 @@
   text-decoration-thickness: 4px;
   text-decoration-color: rgb(157, 3, 17);
 }
+
+.custom-btn {
+  width: 100px; /* Puedes ajustar el ancho según tus necesidades */
+  margin-right: 10px; /* Espacio entre los botones (puedes ajustar según tus necesidades) */
+}
+
+.grupoBotones{
+  text-align: center;
+}
