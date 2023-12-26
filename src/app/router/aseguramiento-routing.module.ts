@@ -5,7 +5,6 @@ import { FormAreaAfiliacionesComponent } from '../components/aseguramiento/compo
 import { FormCotizanteComponent } from '../components/aseguramiento/components/form-cotizante/form-cotizante.component';
 import { FormEmpleadorComponent } from '../components/aseguramiento/components/form-empleador/form-empleador.component';
 import { FormGrupoFamiliarComponent } from '../components/aseguramiento/components/form-grupo-familiar/form-grupo-familiar.component';
-import { SolicitudAfiliacionPageComponent } from '../components/aseguramiento/components/solicitud-afiliacion-page/solicitud-afiliacion-page.component';
 
 
 const routes: Routes = [
@@ -16,7 +15,6 @@ const routes: Routes = [
       { path: 'form-cotizante', component: FormCotizanteComponent },
       { path: 'form-empleador', component: FormEmpleadorComponent },
       { path: 'form-grupo-familiar', component: FormGrupoFamiliarComponent },
-      { path: 'solicitud-afiliacion', component: SolicitudAfiliacionPageComponent }
     ]
   }
 ];

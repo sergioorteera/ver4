@@ -9,7 +9,6 @@ import { FormAreaAfiliacionesComponent } from './components/form-area-afiliacion
 import { FormCotizanteComponent } from './components/form-cotizante/form-cotizante.component';
 import { FormEmpleadorComponent } from './components/form-empleador/form-empleador.component';
 import { FormGrupoFamiliarComponent } from './components/form-grupo-familiar/form-grupo-familiar.component';
-import { SolicitudAfiliacionPageComponent } from './components/solicitud-afiliacion-page/solicitud-afiliacion-page.component';
 
 
 
@@ -22,7 +21,6 @@ import { SolicitudAfiliacionPageComponent } from './components/solicitud-afiliac
     FormCotizanteComponent,
     FormEmpleadorComponent,
     FormGrupoFamiliarComponent,
-    SolicitudAfiliacionPageComponent,
   ],
   imports: [
     CommonModule,
