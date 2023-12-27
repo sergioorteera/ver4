@@ -8,6 +8,7 @@ import { AppRoutingModule } from './router/app-routing.module';
 //components
 import { AppComponent } from './app.component';
 import { InternalErrorComponent } from './components/error-page/internal-error/internal-error.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -19,6 +20,7 @@ import { InternalErrorComponent } from './components/error-page/internal-error/i
   ],
   imports: [
     //@Angular
+    HttpClientModule,
 
     //@Router
     BrowserModule,

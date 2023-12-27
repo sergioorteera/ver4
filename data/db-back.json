@@ -1,6 +1,7 @@
 {
-  "prueba": [
+  "afiliacion": [
     {
+      "id": 1,
       "fechaSgsss": 1,
       "tipoAfiliacion": "uno",
       "numeroRadicacion": "dos",
